@@ -1,0 +1,14 @@
+{
+  "name": "college-screenshots",
+  "version": "1.0.0",
+  "description": "Utility to capture headless Chrome screenshots of the site at common breakpoints",
+  "main": "tools/screenshot.js",
+  "scripts": {
+    "screenshot": "node tools/screenshot.js ./"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}
